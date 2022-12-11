@@ -16,8 +16,8 @@ body{
 } 
 .circle{
     position: relative;
-    width: 330px;
-    height: 330px;
+    width: 338px;
+    height: 338px;
     border-radius: 50%;
     background: #830101;
     display: flex;
@@ -37,8 +37,8 @@ body{
 }
 .text{
     position: absolute;
-    width: 107%;
-    height: 107%;   
+    width: 103%;
+    height: 103%;   
     animation: rotateText 10s linear infinite;
 }
 @keyframes rotateText 

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+
+@font-face {
+    font-family:"FRNEW" ;
+    src: url("FRNEW.TTF");    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+} 
+.circle{
+    position: relative;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background: #830101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    background: url(./sufgania6.jpg);    
+    background-position:396px ; 
+    background-size: cover;
+    
+    border-radius: 50%;
+    filter: brightness(1.2) contrast(1.0);
+}
+.text{
+    position: absolute;
+    width: 107%;
+    height: 107%;   
+    animation: rotateText 10s linear infinite;
+}
+@keyframes rotateText 
+{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+.text span{
+ position: absolute;
+ left: 50%;
+ font-size: 35px; 
+ font-family: "FRNEW"; 
+ color: #ffff95; 
+ transform-origin: 0 175px;
+}
+ 
